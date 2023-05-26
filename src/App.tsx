@@ -1,5 +1,6 @@
 import './App.css'
 import { LessonButton } from './components/LessonButton'
+import { LessonButtonGroup } from './components/LessonButtonGroup'
 import { LessonTypography } from './components/LessonTypography'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
   return (
     <div className='App'>
       {/* <LessonTypography /> */}
-      <LessonButton />
+      {/* <LessonButton /> */}
+      <LessonButtonGroup />
     </div>
   )
 }
