@@ -1,6 +1,7 @@
 import './App.css'
+import { LessonCheckbox } from './components/LessonCheckbox'
 // import { LessonRadioGroup } from './components/LessonRadioGroup'
-import { LessonSelect } from './components/LessonSelect'
+// import { LessonSelect } from './components/LessonSelect'
 // import { LessonButton } from './components/LessonButton'
 // import { LessonButtonGroup } from './components/LessonButtonGroup'
 // import { LessonTypography } from './components/LessonTypography'
@@ -15,7 +16,8 @@ function App() {
       {/* <LessonButtonGroup /> */}
       {/* <LessonTextField /> */}
       {/* <LessonRadioGroup /> */}
-      <LessonSelect />
+      {/* <LessonSelect /> */}
+      <LessonCheckbox />
     </div>
   )
 }
