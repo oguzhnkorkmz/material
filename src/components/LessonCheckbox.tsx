@@ -6,7 +6,6 @@ import {
     Checkbox,
     FormLabel,
     FormGroup,
-    FormHelperText
 } from '@mui/material'
 
 export const LessonCheckbox = () => {
