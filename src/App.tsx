@@ -1,5 +1,6 @@
 import './App.css'
-import { LessonImageList } from './components/LessonImageList'
+import { LessonPaper } from './components/LessonPaper'
+// import { LessonImageList } from './components/LessonImageList'
 // import { LessonAppbar } from './components/LessonAppbar'
 // import { LessonAccordion } from './components/LessonAccordion'
 // import { LessonCard } from './components/LessonCard'
@@ -33,7 +34,8 @@ function App() {
       {/* <LessonCard /> */}
       {/* <LessonAccordion /> */}
       {/* <LessonAppbar /> */}
-      <LessonImageList />
+      {/* <LessonImageList /> */}
+      <LessonPaper />
     </div>
   )
 }
