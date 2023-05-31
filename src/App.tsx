@@ -1,5 +1,6 @@
 import './App.css'
-import { LessonLink } from './components/LessonLink'
+import { LessonBreadCrumb } from './components/LessonBreadCrumb'
+// import { LessonLink } from './components/LessonLink'
 // import { LessonPaper } from './components/LessonPaper'
 // import { LessonImageList } from './components/LessonImageList'
 // import { LessonAppbar } from './components/LessonAppbar'
@@ -37,7 +38,8 @@ function App() {
       {/* <LessonAppbar /> */}
       {/* <LessonImageList /> */}
       {/* <LessonPaper /> */}
-      <LessonLink />
+      {/* <LessonLink /> */}
+      <LessonBreadCrumb />
     </div>
   )
 }
