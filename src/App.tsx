@@ -1,5 +1,7 @@
 import './App.css'
-import { LessonnTimeLine } from './components/LessonnTimeLine'
+import { ThemeProvider, colors, createTheme } from '@mui/material'
+import { LessonCustomization } from './components/LessonCustomization'
+// import { LessonnTimeLine } from './components/LessonnTimeLine'
 // import { LessonMasonry } from './components/LessonMasonry'
 // import { LessonTabs } from './components/LessonTabs'
 // import { LessonDateRange } from './components/LessonDateRange'
@@ -37,48 +39,60 @@ import { LessonnTimeLine } from './components/LessonnTimeLine'
 // import { LessonTypography } from './components/LessonTypography'
 // import { LessonTextField } from './components/LessonTextField'
 
+const theme = createTheme({
+  palette: {
+    secondary: {
+      main: colors.brown[500]
+    }
+  }
+})
+
 function App() {
 
   return (
-    <div className='App'>
-      {/* <LessonTypography /> */}
-      {/* <LessonButton /> */}
-      {/* <LessonButtonGroup /> */}
-      {/* <LessonTextField /> */}
-      {/* <LessonRadioGroup /> */}
-      {/* <LessonSelect /> */}
-      {/* <LessonCheckbox /> */}
-      {/* <LessonAutoComplete /> */}
-      {/* <LessonBox /> */}
-      {/* <LessonStack /> */}
-      {/* <LessonGrid /> */}
-      {/* <LessonCard /> */}
-      {/* <LessonAccordion /> */}
-      {/* <LessonAppbar /> */}
-      {/* <LessonImageList /> */}
-      {/* <LessonPaper /> */}
-      {/* <LessonLink /> */}
-      {/* <LessonBreadCrumb /> */}
-      {/* <LessonDrawer /> */}
-      {/* <LessonBadge />ß */}
-      {/* <LessonSpeedDial /> */}
-      {/* <LessonBottomNavigation /> */}
-      {/* <LessonAvatar /> */}
-      {/* <LessonList /> */}
-      {/* <LessonTooltip /> */}
-      {/* <LessonAlert /> */}
-      {/* <LessonDialog /> */}
-      {/* <LessonSnackbar /> */}
-      {/* <LessonProgress /> */}
-      {/* <LessonSkeleton /> */}
-      {/* <LessonLoadingButton /> */}
-      {/* <LessonTable /> */}
-      {/* <LessonDateTime /> */}
-      {/* <LessonDateRange /> */}
-      {/* <LessonTabs /> */}
-      {/* <LessonMasonry /> */}
-      <LessonnTimeLine />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className='App'>
+        {/* <LessonTypography /> */}
+        {/* <LessonButton /> */}
+        {/* <LessonButtonGroup /> */}
+        {/* <LessonTextField /> */}
+        {/* <LessonRadioGroup /> */}
+        {/* <LessonSelect /> */}
+        {/* <LessonCheckbox /> */}
+        {/* <LessonAutoComplete /> */}
+        {/* <LessonBox /> */}
+        {/* <LessonStack /> */}
+        {/* <LessonGrid /> */}
+        {/* <LessonCard /> */}
+        {/* <LessonAccordion /> */}
+        {/* <LessonAppbar /> */}
+        {/* <LessonImageList /> */}
+        {/* <LessonPaper /> */}
+        {/* <LessonLink /> */}
+        {/* <LessonBreadCrumb /> */}
+        {/* <LessonDrawer /> */}
+        {/* <LessonBadge />ß */}
+        {/* <LessonSpeedDial /> */}
+        {/* <LessonBottomNavigation /> */}
+        {/* <LessonAvatar /> */}
+        {/* <LessonList /> */}
+        {/* <LessonTooltip /> */}
+        {/* <LessonAlert /> */}
+        {/* <LessonDialog /> */}
+        {/* <LessonSnackbar /> */}
+        {/* <LessonProgress /> */}
+        {/* <LessonSkeleton /> */}
+        {/* <LessonLoadingButton /> */}
+        {/* <LessonTable /> */}
+        {/* <LessonDateTime /> */}
+        {/* <LessonDateRange /> */}
+        {/* <LessonTabs /> */}
+        {/* <LessonMasonry /> */}
+        {/* <LessonnTimeLine /> */}
+        <LessonCustomization />
+      </div>
+    </ThemeProvider>
+
   )
 }
 
