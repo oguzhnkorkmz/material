@@ -1,5 +1,6 @@
 import './App.css'
-import { LessonDateRange } from './components/LessonDateRange'
+import { LessonTabs } from './components/LessonTabs'
+// import { LessonDateRange } from './components/LessonDateRange'
 // import { LessonDateTime } from './components/LessonDateTime'
 // import { LessonLoadingButton } from './components/LessonLoadingButton'
 // import { LessonTable } from './components/LessonTable'
@@ -71,7 +72,8 @@ function App() {
       {/* <LessonLoadingButton /> */}
       {/* <LessonTable /> */}
       {/* <LessonDateTime /> */}
-      <LessonDateRange />
+      {/* <LessonDateRange /> */}
+      <LessonTabs />
     </div>
   )
 }
